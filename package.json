@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "duviistore",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/duvany10/duviistore/issues"
   },
-  "homepage": "https://github.com/duvany10/duviistore#readme"
+  "homepage": "https://github.com/duvany10/duviistore#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "duviistore",
+  "version": "1.0.0",
+  "description": "duviistore",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duvany10/duviistore.git"
+  },
+  "author": "duvii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duvany10/duviistore/issues"
+  },
+  "homepage": "https://github.com/duvany10/duviistore#readme"
+}

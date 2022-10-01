@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
+    <title>Login</title>
+    <link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
-    <%- include('partials/navigation') %>
-    <h1>Duvii Store</h1>
-    <%- include('partials/footer') %>
+    <div class="login-form">
+        <h2>Login Duvii</h2>
+        <form action="auth" method="POST">
+            <input type="text" name="user" id="user" placeholder="User" required>
+            <input type="password" name="pass" id="pass" placeholder="Password" required>
+            <input type="submit" class="btn-login" value="Login">
+        </form>
+        <a href="register" class="btn-register">Register</a>
+    </div>
 </body>
 </html>
